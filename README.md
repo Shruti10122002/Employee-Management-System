@@ -16,9 +16,14 @@ A **frontend web application** designed to help HR manage employee tasks and tra
 - 🎨 Tailwind CSS (optional)
 - 💾 LocalStorage for data persistence (or mock API)
 
-⚙️ Installation
-```bash
-git clone https://github.com/yourusername/employee-management-system.git
-cd employee-management-system
-npm install
-npm start
+# 🔐 User Access Details
+
+| Role       | Email                   | Password |
+|------------|-------------------------|----------|
+| 👨‍💼 Admin    | admin@me.com             | 123      |
+| 👨‍💻 Employee | employee1@example.com     | 123      |
+| 👨‍💻 Employee | employee2@example.com     | 123      |
+| 👨‍💻 Employee | employee3@example.com     | 123      |
+
+> You can extend employee accounts as needed in the codebase or mock data.
+
